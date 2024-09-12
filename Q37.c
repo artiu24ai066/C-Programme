@@ -2,10 +2,10 @@
 int main()
 {
     int n;
-    printf("Enter the last number till which you want to print the even numbers:");
+    printf("Enter any number:");
     scanf("%d",&n);
 
-    for(int i=2;i<=n;i=i+2)
+    for(int i=0;i<=(2*n)-2;i=i+2)
     {
         printf("%d\n",i);
     }
